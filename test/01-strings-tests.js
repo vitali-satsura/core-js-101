@@ -71,7 +71,7 @@ describe('01-strings-tasks', () => {
   it.optional('getRectangleString should return the string reprentation of rectangle with specified size', () => {
     assert.equal(
       // eslint-disable-next-line indent
-        '┌────┐\n'
+      '┌────┐\n'
       + '│    │\n'
       + '│    │\n'
       + '└────┘\n',
@@ -79,13 +79,13 @@ describe('01-strings-tasks', () => {
     );
     assert.deepEqual(
       // eslint-disable-next-line indent
-        '┌┐\n'
+      '┌┐\n'
       + '└┘\n',
       tasks.getRectangleString(2, 2),
     );
     assert.deepEqual(
       // eslint-disable-next-line indent
-        '┌──────────┐\n'
+      '┌──────────┐\n'
       + '│          │\n'
       + '└──────────┘\n',
       tasks.getRectangleString(12, 3),
